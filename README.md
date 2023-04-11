@@ -2,3 +2,4 @@
 cxcvc
 test
 test-author
+test-coauth
