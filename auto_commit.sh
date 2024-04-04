@@ -18,9 +18,13 @@ do
     # Add the new file to the staging area
     git add file_$i.txt
 
-git add .
+ git status
 
-    # Commit with a random commit message
+    git add .
+
+ git status
+
+   # Commit with a random commit message
    # git commit -m "Commit $i: $random_content"
-git commit -m "test Co-auth" -m "Co-authored-by: thakurveerendras1 veerendrat+1@proximabiz.com"
+   git commit -m "test Co-auth" -m "Co-authored-by: thakurveerendras1 veerendrat+1@proximabiz.com"
 done
